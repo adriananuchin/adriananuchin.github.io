@@ -11,24 +11,37 @@ header {
     padding: 10px 20px;
     background-color: #f8f8f8;
 }
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
 nav a {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
 }
-.cart {
-    font-size: 18px;
-    margin-left: 20px;
-}
-.sign-in {
-    margin-left: 20px;
-    color: #333;
-}
 .style {
     margin-top: 20px;
     text-align: center;
+}
+.logo{
+    font-family: 'Major Mono Display';
+    font-size: 30px;
+}
+.row{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    font-family: 'Major Mono Display';
+    font-size: 25;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    font-family: 'Major Mono Display';
+    font-size: 20px; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 3px;
+}
+.nextlogo{
+    margin: 10px;
+    font-family: 'Major Mono Display';
+    font-size: 20px;  
 }
