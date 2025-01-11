@@ -25,11 +25,11 @@ nav a {
     font-size: 30px;
 }
 .row{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px;
+
     display: inline-block;
     font-family: 'Major Mono Display';
-    font-size: 25;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
@@ -44,4 +44,14 @@ button{
     margin: 10px;
     font-family: 'Major Mono Display';
     font-size: 20px;  
+}
+#price{
+    font-size: 16px;
+    padding-bottom: 13px;
+    font-family: 'Major Mono Display';
+}
+
+#froprice{
+
+    height: 50%;
 }
