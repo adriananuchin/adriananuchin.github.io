@@ -1,57 +1,89 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f8f8;
+    background-color: #d9d9d9;
 }
+
 nav a {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
 }
+
 .style {
     margin-top: 20px;
     text-align: center;
 }
-.logo{
+
+.logo {
     font-family: 'Major Mono Display';
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
-.row{
+
+.row {
     margin: 20px;
 
     display: inline-block;
     font-family: 'Major Mono Display';
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
-    text-align: center;
+
+
 }
 
-button{
-    font-family: 'Major Mono Display';
-    font-size: 20px; 
-    background-color: rgb(255, 255, 255); 
-    border-radius: 3px;
-}
-.nextlogo{
+.nextlogo {
     margin: 10px;
     font-family: 'Major Mono Display';
-    font-size: 20px;  
+    font-size: 20px;
 }
-#price{
+
+
+.button {
+    background-color: #adadad;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    padding-bottom: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
     font-family: 'Major Mono Display';
 }
 
-#froprice{
+.button span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
 
-    height: 50%;
+.button:hover span {
+    transform: translateY(200%);
+}
+
+.button::after {
+    content: 'sign up';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-block: 12px;
+    text-align: center;
+    transition: top 0.3s ease;
+    font-family: 'Major Mono Display';
+}
+
+.button:hover::after {
+    top: 0;
 }
